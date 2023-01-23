@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ChainCom | Online Decentralized Ecommerce Store</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/input.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="py-3 shadow-sm bg-white">
+      <div class="container flex items-center justify-between ml-10">
+        <a href="index.html">
+          <div class="flex pl-10">
+            <img src="/images/logo.png" alt="Logo" class="w-14" />
+            <p class="text-2xl font-mono pl-2 pt-2">Chaincom</p>
+          </div>
+        </a>
+
+        <div class="w-full max-w-xl relative flex">
+          <span class="absolute left-4 top-3 text-lg text-gray-400">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            class="w-full border border-red-500 border-r-0 pl-12 py-3 pr-3 rounded-l-md focus:outline-none"
+            placeholder=" what you want to buy?"
+          />
+
+          <button
+            class="bg-primary bg-red-500 border border-red-500 text-white px-8 rounded-r-md hover:bg-red-400 hover:text-primary transition"
+          >
+            Search
+          </button>
+        </div>
+
+        <div class="flex items-center space-x-4">
+          <a
+            href="#"
+            class="text-center text-gray-700 hover:text-primary transition relative"
+          >
+            <div class="text-2xl">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="text-xs leading-3 mt-4 hover:text-sky-600">
+              Wishlist
+            </div>
+            <div
+              class="absolute right-2 -top-2 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs"
+            >
+              <img
+                class="mr-1"
+                src="/images/playing-card-heart-shape-icon.svg"
+                alt=""
+              />
+            </div>
+          </a>
+          <a
+            href="#"
+            class="text-center text-gray-700 hover:text-primary transition relative"
+          >
+            <div class="text-2xl">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div class="text-xs leading-3 mt-4 hover:text-sky-600">Cart</div>
+            <div
+              class="absolute -right--1 -top-2 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs"
+            >
+              <img src="/images/cart.svg" alt="" />
+            </div>
+          </a>
+          <a
+            href="#"
+            class="text-center text-gray-700 hover:text-primary transition relative"
+          >
+            <div class="text-2xl">
+              <i class="fa-regular fa-user"></i>
+            </div>
+            <img class="w-5 ml-2 mb-1" src="/images/account.svg" alt="" />
+            <div class="text-xs leading-3 mb-2 hover:text-sky-600">Account</div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+    <!-- NAVBAR -->
+
+    <nav class="bg-gray-800">
+      <div class="container flex pl-32">
+        <div class="bg-primary flex items-center cursor-pointer relative group">
+          <span class="text-white">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+          <div class="bg-transparent h-12 w-36"></div>
+        </div>
+
+        <div class="flex items-center justify-between flex-grow pl-12">
+          <div class="flex justify-end ml-56 space-x-6 capitalize">
+            <a
+              href="index.html"
+              class="text-gray-200 hover:text-sky-600 transition"
+              >Home</a
+            >
+            <a
+              href="pages/shop.html"
+              class="text-gray-200 hover:text-sky-600 transition"
+              >Shop</a
+            >
+            <a href="#" class="text-gray-200 hover:text-sky-600 transition"
+              >About us</a
+            >
+            <a href="#" class="text-gray-200 hover:text-sky-600 transition"
+              >Contact us</a
+            >
+          </div>
+          <a
+            href="pages/login.html"
+            class="text-gray-200 hover:text-slate-700 hover:bg-red-400 transition border-red-400 border-1 rounded-sm bg-red-500 px-5 py-1"
+            >Login</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- NAVBAR END -->
+
+    <!-- BANNER -->
+    <div
+      class="bg-cover bg-no-repeat bg-center py-36"
+      style="background-image: url('')"
+      id="particles-js"
+    >
+      <div class="container ml-40">
+        <h1
+          class="text-6xl text-gray-800 font-medium mb-4 capitalize animateme"
+        >
+          Online Decentralized <br />
+          Ecommerce Store
+        </h1>
+        <p class="animateme pt-6 font-thin font-mono">
+          One Website For All Needs
+          <br />
+          Connect to your nearest local stores as well as shop for international
+          brands <br />
+          in just one click
+        </p>
+        <div class="mt-12 animateme">
+          <a
+            href="#"
+            class="bg-red-500 border border-red-500 text-white px-8 py-3 font-medium rounded-md hover:bg-transparent hover:text-red-600"
+            >Shop Now</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- BANNER END -->
+
+    <!-- OUR VISION -->
+    <div class="imagev">
+      <img class="" src="/images/vision.png" alt="" />
+    </div>
+    <!-- OUR VISION END -->
+
+    <!-- FEATURES -->
+    <div class="container py-16 pl-44">
+      <div class="w-10/12 grid grid-cols-3 gap-6 mx-auto justify-center">
+        <div
+          class="border border-red-500 rounded-sm px-3 py-6 flex justify-center items-center gap-5"
+        >
+          <img
+            src="https://raw.githubusercontent.com/fajar7xx/ecommerce-template-tailwind-1/6f29eb8541cebc61f9f9b2c25c7123ea2e11103c/public/assets/images/icons/delivery-van.svg"
+            alt="Delivery"
+            class="w-12 h-12 object-contain"
+          />
+          <div>
+            <h4 class="font-medium capitalize text-lg">Free Shipping</h4>
+            <p class="text-gray-500 text-sm">Order over ₹500</p>
+          </div>
+        </div>
+        <div
+          class="border border-red-500 rounded-sm px-3 py-6 flex justify-center items-center gap-5"
+        >
+          <img
+            src="https://raw.githubusercontent.com/fajar7xx/ecommerce-template-tailwind-1/6f29eb8541cebc61f9f9b2c25c7123ea2e11103c/public/assets/images/icons/money-back.svg"
+            alt="Delivery"
+            class="w-12 h-12 object-contain"
+          />
+          <div>
+            <h4 class="font-medium capitalize text-lg">Money Return</h4>
+            <p class="text-gray-500 text-sm">30 days money return policy</p>
+          </div>
+        </div>
+        <div
+          class="border border-red-500 rounded-sm px-3 py-6 flex justify-center items-center gap-5"
+        >
+          <img
+            src="https://raw.githubusercontent.com/fajar7xx/ecommerce-template-tailwind-1/6f29eb8541cebc61f9f9b2c25c7123ea2e11103c/public/assets/images/icons/service-hours.svg"
+            alt="Delivery"
+            class="w-12 h-12 object-contain"
+          />
+          <div>
+            <h4 class="font-medium capitalize text-lg">24/7 Support</h4>
+            <p class="text-gray-500 text-sm">Customer support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FEATURES END -->
+    <!-- CATEGORIES -->
+    <div class="container py-16">
+      <h2 class="text-2xl font-medium text-gray-800 uppercase mb-6 pl-36">
+        shop by category
+      </h2>
+      <div class="grid grid-cols-3 gap-3 pl-36">
+        <div class="relative rounded-sm overflow-hidden group">
+          <img
+            src="https://i5.walmartimages.com/asr/52a8a553-1dc9-4263-af1f-c8750bbf7605.b950d0f9a7eb260800e691affbc1e553.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+            alt="category 1"
+            class="w-full"
+          />
+          <a
+            href="#"
+            class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+            >Mobiles, Computers</a
+          >
+        </div>
+        <div class="relative rounded-sm overflow-hidden group">
+          <img
+            src="https://i5.walmartimages.com/asr/0ee92b6d-763e-491f-9d34-10f512896f57.7049fd005dfe63effd33524ef034e5d1.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+            alt="category 1"
+            class="w-full"
+          />
+          <a
+            href="#"
+            class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+            >TV, Appliances, Electronics</a
+          >
+        </div>
+        <div class="relative rounded-sm overflow-hidden group">
+          <img
+            src="https://i5.walmartimages.com/dfw/4ff9c6c9-1e06/k2-_f12d2a61-e339-48d8-af38-599dde39fda7.v1.png?odnHeight=680&odnWidth=1208&odnBg=FFFFFF"
+            alt="category 1"
+            class="w-fit mt-20 h-fit"
+          />
+          <a
+            href="#"
+            class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+            >Clothing & Fashion
+          </a>
+        </div>
+        <div class="relative rounded-sm overflow-hidden group">
+          <img
+            src="https://i5.walmartimages.com/asr/8d7b2f31-5239-48f2-bce3-20e4283f9b03.1c291f41c14328dde2b5332a61efe29e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+            alt="category 1"
+            class="p-10"
+          />
+          <a
+            href="#"
+            class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+            >Home, Kitchen, Pets</a
+          >
+        </div>
+        <div class="relative rounded-sm overflow-hidden group">
+          <img
+            src="https://rukminim1.flixcart.com/image/832/832/xif0q/makeup-kit/w/c/b/makeup-fragrance-set-medium-iba-original-imaggap8n6am2pyf.jpeg?q=70"
+            alt="category 1"
+            class="w-72 m-20"
+          />
+          <a
+            href="#"
+            class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+            >Beauty, Health, Grocery</a
+          >
+        </div>
+        <div class="relative rounded-sm overflow-hidden group">
+          <img
+            src="https://rukminim1.flixcart.com/image/832/832/kw104nk0/cycle/f/w/p/torfin-26t-mtb-bicycle-without-gear-single-speed-with-fs-dd-original-imag8shx8mkcew9p.jpeg?q=70"
+            alt="category 1"
+            class="w-72 m-20 pr-9"
+          />
+          <a
+            href="#"
+            class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+            >Sports, Fitness</a
+          >
+        </div>
+        <div class="relative rounded-sm overflow-hidden group">
+          <img
+            class="w-72 m-20"
+            src="https://i5.walmartimages.com/asr/e7fa0ae5-94c8-4097-a752-a755d2786645.5cee1a3e33dd034238654e789df0f8c3.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+            alt="category 1"
+            class="w-full"
+          />
+          <a
+            href="#"
+            class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+            >Toys, Baby Products, Kids' Fashion</a
+          >
+        </div>
+        <div class="relative rounded-sm overflow-hidden group">
+          <img
+            class="w-72 m-20"
+            src="https://i5.walmartimages.com/asr/8f3b7012-d1e6-404f-a275-3e68036101ae.b9db1079123731724c541703544bb1ed.jpeg"
+            alt="category 1"
+            class="w-full"
+          />
+          <a
+            href="#"
+            class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+            >Car, Motorbike, Industrial</a
+          >
+        </div>
+        <div class="relative rounded-sm overflow-hidden group">
+          <img
+            class="w-72 m-20"
+            src="https://i5.walmartimages.com/asr/e0ed4c1a-dbe2-4633-8d3e-88ad914bcc16.171440e413e76bd7c2584c405d56bc4d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+            alt="category 1"
+            class="pr-9"
+          />
+          <a
+            href="#"
+            class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+            >Books</a
+          >
+        </div>
+        <div class="relative rounded-sm overflow-hidden group">
+          <img
+            src="https://i5.walmartimages.com/asr/f62842fd-263f-46d4-8954-9fbe1a25d636.fefa1d11a99643573cf756f2ce835c05.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+            alt="category 1"
+            class="w-full"
+          />
+          <a
+            href="#"
+            class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+            >Movies, Music & Video Games</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- CATEGORIES END -->
+    <!-- FOOTER -->
+    <footer class="bg-white pt-16 pb-12 border-t border-gray-100">
+      <div class="container grid grid-cols-3 ml-36">
+        <div class="col-span-1 space-y-8">
+          <img src="/images/logo.png" alt="logo" class="w-48" />
+
+          <div class="flex space-x-6">
+            <a href="#" class="text-gray-400 hover:text-gray-500"
+              ><i class="fa-brands fa-facebook-square"></i
+            ></a>
+            <a href="#" class="text-gray-400 hover:text-gray-500"
+              ><i class="fa-brands fa-instagram-square"></i
+            ></a>
+            <a href="#" class="text-gray-400 hover:text-gray-500"
+              ><i class="fa-brands fa-twitter-square"></i
+            ></a>
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+              <i class="fa-brands fa-github-square"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-span-2 grid grid-cols-2 gap-8">
+          <div class="grid grid-cols-2 gap-8">
+            <div>
+              <h3
+                class="text-sm font-semibold text-gray-400 uppercase tracking-wider"
+              >
+                Solutions
+              </h3>
+              <div class="mt-4 space-y-4">
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Marketing</a
+                >
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Analitycs</a
+                >
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Commerce</a
+                >
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Insights</a
+                >
+              </div>
+            </div>
+
+            <div>
+              <h3
+                class="text-sm font-semibold text-gray-400 uppercase tracking-wider"
+              >
+                Support
+              </h3>
+              <div class="mt-4 space-y-4">
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Pricing</a
+                >
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Documentation</a
+                >
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Guides</a
+                >
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >API Status</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-8">
+            <div>
+              <h3
+                class="text-sm font-semibold text-gray-400 uppercase tracking-wider"
+              >
+                Solutions
+              </h3>
+              <div class="mt-4 space-y-4">
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Marketing</a
+                >
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Analitycs</a
+                >
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Commerce</a
+                >
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Insights</a
+                >
+              </div>
+            </div>
+
+            <div>
+              <h3
+                class="text-sm font-semibold text-gray-400 uppercase tracking-wider"
+              >
+                Support
+              </h3>
+              <div class="mt-4 space-y-4">
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Pricing</a
+                >
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Documentation</a
+                >
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >Guides</a
+                >
+                <a
+                  href="#"
+                  class="text-base text-gray-500 hover:text-gray-900 block"
+                  >API Status</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- COPYRIGHT -->
+    <div class="bg-gray-800 py-4">
+      <p class="text-white text-center">&copy; ChainCom - All Right Reserved</p>
+    </div>
+    <!-- COPYRIGHT END -->
+
+    <script type="text/javascript" src="particles.js " defer></script>
+    <script type="text/javascript" src="app.js " defer></script>
+    <script src="animate.js" defer></script>
+  </body>
+</html>
